@@ -126,7 +126,7 @@ def optimal_extreme_point(E):
     index = np.argmin(F)
     return E[index],F[index]
 
-def gw_globle(X,Y,epsilon=1e-6,IterMax=100,verbose=False,log=False):
+def gw_global(X,Y,epsilon=1e-6,IterMax=100,verbose=False,log=False):
     """
     Globally solving the Gromov-Wasserstein problem for point clouds in low dimensional Euclidean spaces [1].
     
